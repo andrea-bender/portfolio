@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat|Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel='shortcut icon' type='image/png' href= 'tinified/favicon.png'>
 
 </head>
@@ -24,7 +26,7 @@
             <label for="toggle">&#9776;</label>
             <input type="checkbox" id= 'toggle'/>
             <div class= 'menu'>
-                <a href="#home" class= 'nav-link'><span>Home</span></a>
+                <a href="#home" class= 'nav-link'><span class='home-span'>Home</span></a>
                 <a href="#about" class= 'nav-link'>About</a>
                 <a href="#skills" class= 'nav-link'>Skills</a>
                 <a href="#portfolio" class= 'nav-link'>Portfolio</a>
@@ -33,7 +35,7 @@
         </div>
     </header>
         <!-- Home/Hero section -->
-        <section class='hero' style="background-image: url(tinified/darkleaf.jpeg)">
+        <section class='hero' style="background-image: url(tinified/bg.jpeg)">
                 <div class= 'banner'>
                     <h1>Andrea Bender</h1>
                     <div class="Iam">
@@ -64,24 +66,39 @@
                             </div>
                             <div class= 'about-description'> 
                                 <br>
-                                <p>Software developer that is passionate about turning information into action.
+                                <p>Hi my name is Andrea! I am a software developer that is passionate about turning data into action.
                                 I try to keep a mindful and fierce approach to test-driven development 
-                                through my history in technical training and client relations.
+                                so that users can have the best experience possible. I love creating modern/minimalistic designs, but am 
+                                always open to experimenting and trying new techniques that push me outside of my box.
                                 <br>
                                 <br>
-                                My background in biology has taught me that with any experiment there will be <em>a lot</em>
-                                of failure and some successes, but the drive and perseverance through those experiences make
+                                My background in biology has taught me that with any experiment there will be a lot
+                                of failure and successes, but the drive and perseverance through those experiences make
                                 the final result feel like a greater accomplishment. From working in a parasitic manipulation lab,
-                                the Forest Service, and a top ten craft brewery, I have learned how to adapt and work in teams in a variety of settings. 
+                                the Forest Service, and a top ten craft brewery, I have learned how to <strong>adapt</strong> and work in teams in a variety of settings. 
                                 I am ready to bring my passion and drive for success and share it with a like-minded team of programmers! 
                                 <br>
                                 <br>
                                 Born and raised in West Palm Beach, FL, but currently based in Boulder, CO. When I’m 
-                                not coding, I enjoy climbing in the alpine, reading about divisive issues that shape our 
-                                society, adventuring through new places, or enjoying skiing in the mountains.</p>
+                                not coding, I love climbing in the alpine, lsitening to music, reading about divisive issues that shape our 
+                                society, and adventuring to new places.</p>
                             </div>
+                            <div>
+                                Here are a few things to give more insight on who I am!
+                                <div>
+                                <iframe src="https://open.spotify.com/embed/playlist/0bq6BTGGbHq51H6csOX02x" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                
+                                    <a href="https://www.instagram.com/mutatedfish_/?hl=en" target="_blank" class= 'social-link' aria-label="Instagram">
+                                        <img class= 'social-img' src="tinified/instagram-logo.png" alt="Instagram">
+                                    </a>
+                                 
+                                
+                                    <a href="https://twitter.com/AndreaBender8" target="_blank" class= 'social-link' aria-label="Twitter">
+                                        <img class= 'social-img' src="tinified/twitter-logo.jpg" alt="Twitter logo">
+                                    </a>
                             
-                        </div>
+                                </div>                  
+                            </div>
                         
                     </div>
                     <!-- <div class= 'about-skills'>
@@ -106,7 +123,7 @@
             <!-- <div> -->
             <!-- Skills -->
             <section id='skills' class='skills-container'>
-                <h3>Skills</h3>
+                <h3>These are my skills</h3>
                 <div class='skills-wrapper'>
                     <div class='skill-item'>
                         <a class='skill-img'>
@@ -163,7 +180,7 @@
             <!-- Portfolio -->
             <section id= 'portfolio' class= 'portfolio-container'>
                 <h3>Portfolio</h3>
-                <div class= 'featured-project'>
+                <!-- <div class= 'featured-project'>
                     <div class= 'featured-container'>
                         <h4>Featured Project</h4>
                         <div class= 'quiz-container'>
@@ -193,7 +210,63 @@
                         <br>
                     </div>
                     
+                </div> -->
+                <!-- carousel -->
+                <div>
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-2" class="next-slide">
+                                      <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="http://www.timisoaranight.gruzphoto.eu/IMG_8554.jpg">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-3" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-1" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
+                
+                
             </section>
         <!-- </div> -->
     <!-- </main> -->
@@ -202,32 +275,54 @@
         <div class= 'social-container'>
             <div>
                 <h3>Contact Me</h3>
+                
                 <ul class= 'social-list'>
-                  <li class= 'social-item'>
+                    <li class= 'social'>
+                        <i class="fa fa-map-marker" style='font-size:30px;color:white;'></i>
+                            <span class='con'> Boulder, CO</span>
+                    </li>
+                    <li class='social'>
+                        <a href="tel:5613292239"><i class="fa fa-phone" style='font-size:30px;color:white;'></i>
+                            <span class="con"> 561 329 2239</span></a>
+                    </li>
+                    <li class='social'>
+                        <a href="mailto:andreab.1726@gmail.com"><i class="fa fa-envelope" style='font-size:30px;color:white;'></i>
+                            <span class="con"> andreab.1726@gmail.com</span></a>
+                    </li>
+                    <section class="list-inline">
+                        <li>
+                             <a href="https://www.linkedin.com/in/andreaibender/" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                             <a href="https://github.com/andrea-bender" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                   </section>
+
+                  <!-- <li class= 'social-item'>
                     <a href="https://github.com/andrea-bender" target="_blank" class= 'social-link' aria-label="Github">
-                        <img class= 'social-img' src="tinified/githublogo.png" alt="gitHub logo">
+                        <img class= 'social-img' src="tinified/github-logo.png" alt="gitHub logo">
                     </a>
                   </li> 
                   <li class= 'social-item'>
                         <a href="https://www.linkedin.com/in/andrea-bender-0569a5194" target="_blank" class= 'social-link' aria-label="LinkedIn">
-                            <img class= 'social-img' src="tinified/linkedin.png" alt="LinkedIn logo">
+                            <img class= 'social-img' src="tinified/linkedin-logo.png" alt="LinkedIn logo">
                         </a>
                     </li>
                     <li class= 'social-item'>
                         <a href="https://www.instagram.com/mutatedfish_/?hl=en" target="_blank" class= 'social-link' aria-label="Instagram">
-                            <img class= 'social-img' src="tinified/instalogo.jpg" alt="Instagram logo">
+                            <img class= 'social-img' src="tinified/instagram-logo.png" alt="Instagram logo">
                         </a>
                     </li> 
                     <li class= 'social-item'>
                         <a href="https://twitter.com/AndreaBender8" target="_blank" class= 'social-link' aria-label="Twitter">
-                            <img class= 'social-img' src="tinified/twitter.png" alt="Twitter logo">
+                            <img class= 'social-img' src="tinified/twitter-logo.jpg" alt="Twitter logo">
                         </a>
                     </li> 
                     <li class= 'social-item'>
                         <a href="mailto:andreab.1726@gmail.com" target="_blank" class= 'social-link' aria-label="Email">
-                            <img class= 'social-img' src="tinified/emailimg.png" alt="Email icon">
+                            <img class= 'social-img' src="tinified/email-logo.png" alt="Email icon">
                         </a>
-                    </li> 
+                    </li>  -->
                 </ul>
             </div>
         </div>
