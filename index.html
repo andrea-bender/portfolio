@@ -199,76 +199,65 @@
                     
                 </div> -->
                 <!-- carousel -->
-                <div>
-                    <div class="carousel">
-                        <ul class="slides">
-                            <input type="radio" name="radio-buttons" id="img-1" checked />
-                            <li class="slide-container">
-                                <div class="slide-image">
-                                    <img src="tinified/dearbeer.png">
-                                    
-                                    <div class= 'featured-links'>
-                                        <p>An app designed for any beer lover. This app helps users find the nearest 
-                                            breweries or bars around them where they can grab a drink. It then lets the users
-                                            fill out a form and add their beer to remember foreve, good or bad.
-                                        </p>
-                                        <a href="https://github.com/thinkful-ei-heron/nate-andrea-quizzapp.git" target="_blank" aria-label= 'External link'>
-                                            <img src="tinified/githublogo.png" alt="GitHub logo">
-                                        </a>
-                                        <a href="https://thinkful-ei-heron.github.io/nate-andrea-quizzapp/" target="_blank" aria-label="GitHub link">
-                                            <img src="tinified/extlink.png" alt="external link">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-controls">
-                                    <label for="img-3" class="prev-slide">
-                                        <span>&lsaquo;</span>
-                                    </label>
-                                    <label for="img-2" class="next-slide">
-                                      <span>&rsaquo;</span>
-                                    </label>
-                                </div>
-                            </li>
-                            <input type="radio" name="radio-buttons" id="img-2" />
-                            <li class="slide-container">
-                                <div class="slide-image">
-                                    <img src="http://www.timisoaranight.gruzphoto.eu/IMG_8554.jpg">
-                                </div>
-                                <div class="carousel-controls">
-                                    <label for="img-1" class="prev-slide">
-                                        <span>&lsaquo;</span>
-                                    </label>
-                                    <label for="img-3" class="next-slide">
-                                        <span>&rsaquo;</span>
-                                    </label>
-                                </div>
-                            </li>
-                            <input type="radio" name="radio-buttons" id="img-3" />
-                            <li class="slide-container">
-                                <div class="slide-image">
-                                    <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
-                                </div>
-                                <div class="carousel-controls">
-                                    <label for="img-2" class="prev-slide">
-                                        <span>&lsaquo;</span>
-                                    </label>
-                                    <label for="img-1" class="next-slide">
-                                        <span>&rsaquo;</span>
-                                    </label>
-                                </div>
-                            </li>
-                            <div class="carousel-dots">
-                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                            </div>
-                        </ul>
+                <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="slide-container">
+                    <img class='slide-img' src="tinified/dearbeer4.png">
+                    <br>
+                    <div class="text">
+                        <p>An app designed for any beer lover. This app helps users find the nearest 
+                            breweries or bars around them where they can grab a drink. It then lets the users
+                            fill out a form and add their beer to remember foreve, good or bad.
+                        </p>
+                        
                     </div>
                 </div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="slide-container">
+                    <img class='slide-img' src="tinified/quendi.png">
+                    <br>
+                    <div class="text">
+                        <p>The Quendi app is an app built using spaced-repition/ a linked list to help 
+                            users learn the Elvish language.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="slide-container">
+                    <img class='slide-img' src="tinified/venga.png">
+                    <br>
+                    <div class="text">
+                        <p>With the number of rock climbs increaing each year it can be hard to keep 
+                            track of everything oyu climb. Venga app allows users to easily log and 
+                            track their climbs wherever they go, whether in a gym or outdoors, users
+                            can track the location, attempts, difficulty, and upload an image.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center; margin:2em;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
                 
-                
-            </section>
-        <!-- </div> -->
     <!-- </main> -->
     <!-- Footer/Contact Information -->
     <footer id='contact' class= 'footer-container'>
@@ -301,6 +290,7 @@
             </div>
         </div>
         <div class= 'end-note'>All materials © Andrea Bender 2019</div>
-    </footer>          
+    </footer>    
+    <script src="index.js"></script>  
 </body>
 </html> 
