@@ -34,10 +34,10 @@ function showSlides(n) {
 }
 
 // hamburger menu toggle
-$('.toggle').on('click', function() {
-	$('.menu').toggleClass('open');
-});
+// $('.toggle').on('click', function() {
+// 	$('.menu').toggleClass('open');
+// });
 
-$('.menu a').on('click', function() {
-	$('.menu').hide();
-});
+// $('.menu a').on('click', function() {
+// 	$('.menu').hide();
+// });
