@@ -136,6 +136,10 @@ div.spotify {
 	justify-content: center;
 	margin-bottom: 1em;
 }
+iframe {
+	background-color: transparent;
+	border: none;
+}
 .insta-twitter {
 	display: flex;
 	justify-content: center;
