@@ -515,15 +515,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
 	cursor: pointer;
@@ -749,6 +740,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	.social-list {
 		padding: 0;
 	}
+
 	/* rotating txt */
 	.Iam {
 		font-size: 1em;
@@ -950,9 +942,5 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	.skills-container {
 		list-style-type: none;
 		text-align: center;
-	}
-	.about-description p {
-		text-align: justify;
-		margin-top: 4px;
 	}
 }

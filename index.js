@@ -1,5 +1,7 @@
 /* eslint-disable indent */
 'use strict';
+
+// slideshow JS
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -32,12 +34,3 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = 'block';
 	dots[slideIndex - 1].className += ' active';
 }
-
-// hamburger menu toggle
-// $('.toggle').on('click', function() {
-// 	$('.menu').toggleClass('open');
-// });
-
-// $('.menu a').on('click', function() {
-// 	$('.menu').hide();
-// });
