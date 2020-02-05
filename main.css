@@ -58,6 +58,11 @@ label {
 	width: 100%;
 	overflow: scroll;
 }
+aside {
+	max-height: 50px;
+	overflow: hidden;
+	margin-top: 1em;
+}
 h1 {
 	font-size: 7em;
 	text-align: center;
