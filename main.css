@@ -732,8 +732,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 		text-align: center;
 	}
 	.slide-img {
-		width: 50%;
-		/* margin-bottom: 12em; */
+		width: -webkit-fill-available;
+		height: auto;
 	}
 	#contact h3 {
 		font-size: 40px;
