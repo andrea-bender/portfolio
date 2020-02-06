@@ -731,6 +731,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 		font-size: 40px;
 		text-align: center;
 	}
+	.slide-img {
+		width: 61%;
+		margin-bottom: 12em;
+	}
 	#contact h3 {
 		font-size: 40px;
 		padding-top: 1rem;
